@@ -4,6 +4,6 @@
 							| ' < | '_|/ _ \| ' \ | || ' < |/(_-<
 							|_|\_\|_|  \___/|_||_||_||_|\_\  /__/
 							
-							     	URBAN TERROR ULTIMATE CONFIG
+								URBAN TERROR ULTIMATE CONFIG
 								Contact: Daniel@nusalaska.com
 	=========================================================================================
