@@ -84,7 +84,6 @@ Drop Kevlar			`H`
 __3. Misc Key Binds__
 
 Scoreboard			`TAB`  
-Show Console		`\``  
 Show Console		`~`  
 Standard Chat		`ENTER`  
 Team Chat			`Y`  
