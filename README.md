@@ -14,7 +14,7 @@
 ## Features of this Config
 
 + Scrollable Menus for selecting gear loadouts as well as rcon functions etc.
-+ Easy access to changing senstivinty
++ Easy access to changing senstivity
 + Easy access to changing Volume
 + Easy access to standard radio commands
 + A Demo watching mode that has many keys set up for recording demos
@@ -28,7 +28,7 @@ Almost EVERY single option available in UrT is set up with some form of key bind
 
 ## How to install this config
 
-1. Navagate to your Urban Terror Directory and enter the q3ut4 folder
+1. Navigate to your Urban Terror Directory and enter the q3ut4 folder
 2. Rename the file "autoexec.cfg" to "default_autoexec.cfg"
 3. Copy in the new "autoexec.cfg" file and the "cfg" folder
 
@@ -48,7 +48,7 @@ To change which key is bound to a specific function, simply change it in the app
 
 ## The Big List Of Key Binds
 
-In the following section I wil list Literally every single key bind. This should allow you to test everything out before making changes.
+In the following section I wil list literally every single key bind. This should allow you to test everything out before making changes.
 
 __1. Movement Key Binds (DEFAULT)__
 
@@ -152,7 +152,7 @@ Left					`Left Arrow`
 Right					`Right Arrow`  
 
 __10. Demo Mode__
-You Can Enter Demo Mode by pressing `PAUSE`. Once you are in demo mode, then the following options are available:
+You Can Enter Demo Mode by pressing `PAUSE`. Once you are in demo mode, the following options are available:
 
 Exit Demo Mode 			`PAUSE`  
 Slow Playback 			`Page Down`  
