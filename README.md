@@ -290,19 +290,21 @@ Here is an example of a menu .cfg with everything commented to describe how it w
 ```
 //This sets the menu at step01 when the menu loads
 set stepRecall vstr step01 
-
-//This sets the command "connectMenu" to be the second page. This way the next time the F5 Key is pressed, it will show page 2 which is menuConnect_b.cfg
+```
+This sets the command "connectMenu" to be the second page. This way the next time the F5 Key is pressed, it will show page 2 which is menuConnect_b.cfg
+```
 set connectMenu "exec /cfg/step/menuConnect_b.cfg"
+```
 
-//This sets up the default menu with nothing highlighted. To be more specific we are setting variables which we can use later. The carat + number denotes a color for all text following it. So for example ^7 will make all text after it white. You will see later how we use other colors to show which option we are selecting. One other note, the vstr blnk; is a pre-set variable which simply adds some space in.  
-
+This sets up the default menu with nothing highlighted. To be more specific we are setting variables which we can use later. The carat + number denotes a color for all text following it. So for example ^7 will make all text after it white. You will see later how we use other colors to show which option we are selecting. One other note, the vstr blnk; is a pre-set variable which simply adds some space in.  
+```
 set internal_A "vstr blnk;  ut_echo ^0*****^5LIVE CONNECT^0*****"
 set internal_B "ut_echo ^7CTFEast|CTF.....FA|CTF.....KSL|SR8"
 set internal_C "ut_echo ^7CC|TDM.....DSG|TDM.....Nex|Bomb"
 set internal_D "ut_echo ^7KroniK's|Icy.....GORE|Easy.....GORE|Pro"
-
-//These are the actual commands which are run for each step. Notice we leave the first step blank and the last step blank. This is because we want the first step to take us to the last menu item and the last step to take us to the first menu item. You will see how this works in the next section
-
+```
+These are the actual commands which are run for each step. Notice we leave the first step blank and the last step blank. This is because we want the first step to take us to the last menu item and the last step to take us to the first menu item. You will see how this works in the next section
+```
 set data_A_00 ""
 set data_A_01 "connect 64.94.238.89:27961"			//CTF East
 set data_A_02 "connect 209.190.50.170:27960"		//FA
@@ -314,9 +316,9 @@ set data_A_07 "connect 216.224.181.62:27960"		//KroniK's
 set data_A_08 "connect 188.138.115.98:27923"		//Gore Easy
 set data_A_09 "connect 188.138.115.98:27921" 		//Gore Pro
 set data_A_10 ""
-
-//Now for each step, we need some way of showing which command we are selecting. To do this we will put an arrow to the left of the option and make the option turn pink. We will do this with our carat + Number method I described earlier. Also, notice how I don't write out every line of the menu. I simply run 'vstr internal_A' and it will run everything which was set in 'internal_A' above. 
-
+```
+Now for each step, we need some way of showing which command we are selecting. To do this we will put an arrow to the left of the option and make the option turn pink. We will do this with our carat + Number method I described earlier. Also, notice how I don't write out every line of the menu. I simply run 'vstr internal_A' and it will run everything which was set in 'internal_A' above. 
+```
 set data_B_00 "vstr step09" 
 set data_B_01 "vstr internal_A; ut_echo ^2->^6CTFEast|CTF^7..FA|CTF.....KSL|SR8; vstr internal_C; vstr internal_D"   
 set data_B_02 "vstr internal_A; ut_echo ^7CTFEast|CTF.....^2->^6FA|CTF^7..KSL|SR8; vstr internal_C; vstr internal_D"
