@@ -287,7 +287,8 @@ There is a different .cfg file which allows these scroll menus to work. You can 
 
 Here is an example of a menu .cfg with everything commented to describe how it works. The menu I am using as an example is menuConnect_a.cfg
 
-```//This sets the menu at step01 when the menu loads
+```
+//This sets the menu at step01 when the menu loads
 set stepRecall vstr step01 
 
 //This sets the command "connectMenu" to be the second page. This way the next time the F5 Key is pressed, it will show page 2 which is menuConnect_b.cfg
