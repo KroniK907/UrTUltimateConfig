@@ -5,7 +5,7 @@
 							|_|\_\|_|  \___/|_||_||_||_|\_\  /__/
 							
 								ULTIMATE URBAN TERROR CONFIG
-								Contact: Daniel@nusalaska.com
+								Contact: KroniK907@gmail.com
 							(origionally Created by RexGoodthings)
 
 	=========================================================================================
